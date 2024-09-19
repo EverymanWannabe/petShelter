@@ -88,7 +88,7 @@
                             <div class="submenu">
                                 <h1>커뮤니티</h1>
                                 <ul>
-                                    <li><a href="#">커뮤니티 1</a></li>
+                                    <li><a href="${pageContext.request.contextPath}/board/list.bo">커뮤니티 1</a></li>
                                     <li><a href="#">커뮤니티 2</a></li>
                                 </ul>
                             </div>

@@ -32,7 +32,7 @@ import com.kh.petShelter.adopt.model.vo.AdoptAttachment;
 import com.kh.petShelter.adopt.model.vo.AdoptImg;
 import com.kh.petShelter.adopt.model.vo.AdoptReview;
 import com.kh.petShelter.adopt.model.vo.Application;
-import com.kh.petShelter.adopt.model.vo.PageInfo;
+import com.kh.petShelter.common.model.vo.PageInfo;
 import com.kh.petShelter.common.template.Pagination;
 
 import jakarta.servlet.http.HttpSession;

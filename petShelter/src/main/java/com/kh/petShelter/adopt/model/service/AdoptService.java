@@ -16,7 +16,7 @@ public interface AdoptService {
 	int reviewCount();
 	
 	//후기 게시글 조회
-	ArrayList<AdoptReview> selectReviewList(PageInfo pi);
+	ArrayList<AdoptReview> selectReviewList(com.kh.petShelter.common.model.vo.PageInfo pi);
 	
 	//후기 게시글 썸네일 조회
 	ArrayList<AdoptAttachment> selectReviewThumbList();
@@ -29,5 +29,7 @@ public interface AdoptService {
 	
 	//썸네일 저장
 	int insertAttachment(AdoptAttachment att);
+
+	ArrayList<AdoptReview> selectReviewList(PageInfo pi);
 
 }
